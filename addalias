@@ -1,0 +1,5 @@
+#!/bin/bash
+# Alias to add, commit and push to GitHub with "gitt".
+echo "alias gitt=\"sh ~/alias_config/git.sh\"" | tee -a ~/.bashrc > /dev/null
+# Refresh to bashrc to apply changes
+source ~/.bashrc
